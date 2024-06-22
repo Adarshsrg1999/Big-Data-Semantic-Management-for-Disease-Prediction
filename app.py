@@ -29,4 +29,4 @@ def upload_file():
         return render_template('result.html', message='Error processing file', output=e.output)  # Make sure to capture output from the error.
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
+    app.run(debug=True)
